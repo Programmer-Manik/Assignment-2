@@ -107,7 +107,7 @@ header{
 }
 /*  <!-- This is a article-button scetion strat --> */
 
-
+ 
 
 /*  <!-- This is a img-article scetion strat --> */
 .img-article > img{
@@ -117,8 +117,8 @@ header{
 
 
 
-
 /*   <!-- This is a quick-section scetion start --> */
+
 .quick-section{
     width:100%;
     max-width:1200px;
@@ -157,8 +157,44 @@ header{
 /*   <!-- This is a quick-section scetion end --> */
 
 
+
+/*  <!-- This is a Features-section scetion start --> */
+.features-section{
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    gap:30px;
+}
+.titel-box{
+    border-left: 4px solid #FF900E;    
+}
+.features-titel{
+    padding-left:21px;
+    margin-bottom:20px;
+}
+.info-box{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top:20px;
+    padding: 20px;
+}
+.info-box-titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-color);
+}
+.features-img-box > img{
+    width: 100%;
+    height:120vh;
+}
+/*  <!-- This is a Features-section scetion end --> */
+
+
 @media screen and (max-width:576px){
-    .nav-container, .nav-list, .quick-section{
+    .nav-container, .nav-list, .quick-section, .features-section{
         flex-direction: column;
     }
     .button-article{
