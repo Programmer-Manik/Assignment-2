@@ -184,10 +184,31 @@ header{
     font-size: 20px;
     color: var(--dark-color);
 }
+.features-img-box{
+    position: relative;
+}
+
 .features-img-box > img{
     width: 100%;
     height:120vh;
 }
+.year{
+    position: absolute;
+    width: 258px;
+    height: 109px;
+    margin-left:-20px;
+    margin-top:-70px;
+    background-color: var(--background);
+    color: var(--withe-color);
+    text-align: center;
+    z-index: 1;
+}
+.year-title{
+    font-weight: 700;
+    font-size:40px;
+    padding-top:20px;
+}
+
 /*  <!-- This is a Features-section scetion end --> */
 
 
@@ -255,9 +276,24 @@ header{
     gap:20px;
 }
 .our-item-img{
-    color: var(--dark-l-color);
+   
+
 }
 /*  <!-- This is a Our--section scetion emd --> */
+
+
+
+/* <!-- This is a footer-section scetion start --> */
+.footer-section{
+    width:100%;
+    max-width:1200px;
+    margin: 0px auto;
+    padding: 30px 30px;
+    background-color: var(--background-shadow);
+    text-align: center;
+    margin-top: 25px;
+}
+/* <!-- This is a footer-section scetion end --> */
 
 @media screen and (max-width:576px){
     .nav-container, 
@@ -276,5 +312,10 @@ header{
     }
     .section-img{
         grid-template-columns: repeat(1,1fr);
+    }
+    .year{
+        margin-top:20px;
+        margin-left:20px;
+        position: relative;
     }
 }
