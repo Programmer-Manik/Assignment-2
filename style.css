@@ -118,7 +118,6 @@ header{
 
 
 /*   <!-- This is a quick-section scetion start --> */
-
 .quick-section{
     width:100%;
     max-width:1200px;
@@ -153,7 +152,6 @@ header{
 .scetion-buttion{
     margin-top: 10px;
 }
-
 /*   <!-- This is a quick-section scetion end --> */
 
 
@@ -163,7 +161,7 @@ header{
     width:100%;
     max-width:1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px 30px;
     display: flex;
     gap:30px;
 }
@@ -193,8 +191,81 @@ header{
 /*  <!-- This is a Features-section scetion end --> */
 
 
+
+/* <!-- This is a Some--section scetion start --> */
+.some-section{
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+.some-titel{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+.some-items{
+    margin-top:90px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.item-box{
+    width: 241px;
+    height:241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+.item-img{
+    margin-top: 60px;
+}
+.item-number{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--dark-color);
+}
+/* <!-- This is a Some--section scetion end --> */
+
+
+
+/*  <!-- This is a Our--section scetion start --> */
+.our-section{
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+.our-main-box{
+    text-align: center;
+}
+.our-title{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: var(--dark-color);
+}
+.our-items{
+    margin-top:50px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:20px;
+}
+.our-item-img{
+    color: var(--dark-l-color);
+}
+/*  <!-- This is a Our--section scetion emd --> */
+
 @media screen and (max-width:576px){
-    .nav-container, .nav-list, .quick-section, .features-section{
+    .nav-container, 
+    .nav-list, 
+    .quick-section, 
+    .features-section,
+    .some-items,
+    .our-items{
         flex-direction: column;
     }
     .button-article{
