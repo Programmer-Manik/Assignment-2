@@ -208,8 +208,62 @@ header{
     font-size:40px;
     padding-top:20px;
 }
-
 /*  <!-- This is a Features-section scetion end --> */
+
+
+
+/*  <!-- This is a Optional-section scetion start --> */
+.optional-section{
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+.optional-box{
+    text-align: center;
+}
+.optional-main-titel{
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--dark-color);
+}
+.optional-items{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.optional-item{
+    width:300px;
+    height:350px;
+    padding:25px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.24);
+}
+.img-box{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top:-60px;
+    box-shadow: 0px 4px 30px rgba(241, 121, 121, 0.808)
+}
+
+.img-box > img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-titel{
+    margin: 10px 0;
+    color: var(--text-color);
+}
+
+
+ 
+/*  <!-- This is a Optional-section scetion start --> */
+
 
 
 
@@ -318,7 +372,8 @@ header{
     .quick-section, 
     .features-section,
     .some-items,
-    .our-items{
+    .our-items,
+    .optional-items{
         flex-direction: column;
     }
     .button-article{
