@@ -239,15 +239,33 @@ header{
     border-radius: 8px;
     text-align: center;
 }
+
 .item-img{
     margin-top: 60px;
+    position: relative;
+    animation-name: example;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-delay: 4s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    transform: rotate(45deg);
 }
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:100px; top:0px;}
+    50%  { left:100px; top:100px;}
+    75%  { left:0px; top:100px;}
+    100% { left:0px; top:0px;}
+  }
+
 .item-number{
     font-weight: 600;
     font-size: 45px;
     line-height: 53px;
     color: var(--dark-color);
 }
+
 /* <!-- This is a Some--section scetion end --> */
 
 
@@ -275,10 +293,9 @@ header{
     align-items: center;
     gap:20px;
 }
-.our-item-img{
-   
 
-}
+.grayscale { filter: grayscale(100%); }
+
 /*  <!-- This is a Our--section scetion emd --> */
 
 
